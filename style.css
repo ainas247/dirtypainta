@@ -128,7 +128,7 @@ nav{
 .ex1{
     width: 430px;
     height: 221px;
-    background-color: rgba(0, 0, 0, 0.5);
+background-image: url(./images/img1.png);
     background-size: cover;
 }
 .p{
