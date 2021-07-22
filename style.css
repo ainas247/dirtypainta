@@ -272,9 +272,9 @@ cursor: pointer;
 /* RESPONSIVE */
 
 @media screen and (max-width: 1200px){
-    .main{
+.main{
     background: #fff;
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
