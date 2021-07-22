@@ -1,0 +1,422 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E7DFD4;
+}
+
+p, h1, h2, h3, h4{
+    font-family: poppins;
+}
+
+.main{
+    background: #fff;
+    width: 85%;
+    margin: auto;
+}
+
+nav{
+    height: 188px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-reg{
+    display: flex;
+}
+
+.logo{
+    width: 82px;
+    height: 96px;
+    font-family: Old English Text MT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 96px;
+    color: #000000;
+    margin-right: 20px;
+}
+
+.menu{
+    width: 560px;
+    height: 24px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.bars{
+    display: none;
+}
+
+.menu a{
+    padding-right: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.loginregister{
+    /* Login | Register */
+    width: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+    font-size: 18px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginregister a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Poppins;
+
+}
+/* Banner Section */
+.banner-section{
+    height: 403px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/Header-1.jpg);
+}
+.banner-section h1, h3{
+    color: white;
+
+}
+.text{
+    text-align: center;
+}
+
+.text .btn{
+    width: 304px;
+    height: 56px;
+    background: #A4A4A4;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 28px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.exibition{
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.exibition h1{
+    padding-left: 50px;
+}
+
+.exibition-section1{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;    
+}
+
+.ex1{
+    width: 430px;
+    height: 221px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+}
+.p{
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    color: white;
+}
+.ex2{
+    width: 430px;
+    height: 221px;
+background-image: url(./images/img2.png);
+        background-size: cover;
+    
+    }
+
+.exibition-section2{
+    display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+    
+}
+.ex3{
+    width: 430px;
+    height: 221px;
+    background-image: url(./images/img2.png);
+        background-size: cover;
+
+}
+.ex4{
+    width: 430px;
+    height: 221px;
+background-image: url(./images/img2.png);
+        background-size: cover;
+}
+
+.exibition .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.exibition .btn{
+    width: 280px;
+    height: 56px;
+    background: #E7DFD4;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 28px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.market-place{
+        margin-top: 50px;
+        background-image: url(./images/Market-Place.jpg);
+        background-size: cover;
+        padding-bottom: 50px;
+}
+
+
+.market-place .title{
+padding-top: 50px;
+align-items: center;
+}
+
+.mp{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+
+}
+
+.market-place-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    margin: 50px;
+    color:#565656;
+    padding-bottom: 50px;
+
+}
+
+
+.market-place-section .section{
+    padding: 50px 80px 0px 80px;
+}
+
+.section h1{
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 129.5%;
+/* identical to box height, or 47px */
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.section .btn{
+width: 130px;
+height:30px;
+background: #E7DFD4;
+box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+border-radius: 28px;
+border: none;
+color: white;
+font-size: 18px;
+margin-top: 20px;
+cursor: pointer;
+}
+
+.line{
+    height: 150px;
+    width: 2px;
+    background-color: black;
+}
+
+.aboutussection{
+    width: 100%;
+    display: flex;
+}
+
+.about-text{
+    padding: 50px 50px 50px 50px;
+}
+
+.aboutimg{
+    padding: 50px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1200px){
+
+.ex1{
+    width: 400px;
+    padding-bottom: 50px;
+}
+
+.ex2{
+    width: 400px;
+        padding-bottom: 50px;
+
+}
+
+.ex3{
+    width: 400px;
+        padding-bottom: 50px;
+
+}
+
+.ex4{
+    width: 400px;
+        padding-bottom: 50px;
+
+}
+.ex1 img{
+    width: 100%;
+}
+
+.ex2 img{
+    width: 100%;
+}
+.ex3 img{
+    width: 100%;
+}
+
+.ex4 img{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:1100px) {
+
+  nav{
+    justify-content:left
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.menu-reg{
+    display: none;
+}
+
+.bars{
+    display: block;
+    position: absolute;
+    right: 120px;
+}
+
+/* CHANGING THE EXIBITION TO 100% */
+.exibition-section1{
+    display: block;
+    margin: 0px;
+}
+.exibition-section2{
+    display: block;
+    margin: 0px;
+}
+.ex1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ex2{
+    width: 100%;
+        margin-bottom: 20px;
+
+
+}
+
+.ex3{
+    width: 100%;
+        margin-bottom: 20px;
+
+}
+
+.ex4{
+    width: 100%;
+        margin-bottom: 20px;
+
+}
+
+/* Changing exibition to 100% */
+
+.market-place-section{
+    display: block;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin: 0px;
+    margin-bottom: 50px;
+
+}
+
+.market-place-section .section{
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+
+}
+
+.line{
+    display: none;
+}
+
+.aboutussection{
+    display:  block;
+    width: 100%;
+    margin-top: 50px;
+}
+.about-text{
+    width: 100%;
+    margin: 0px;
+}
+.aboutimg{
+    width: 100%;
+
+}
+.aboutimg img{
+    width: 100%;
+}
+}
+
+@media screen and (max-width:700px) {
+    .bars{
+    display: block;
+    position: absolute;
+    right: 70px;
+}
+
+.market-place-section{
+    display: block;
+    margin:10px;
+}
+}
