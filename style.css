@@ -430,5 +430,28 @@ cursor: pointer;
     width: 98%;
     margin: auto;
 }
-
+.ex1{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.ex2{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.ex3{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.ex4{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
 }
