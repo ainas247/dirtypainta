@@ -424,4 +424,11 @@ cursor: pointer;
     display: block;
     margin:10px;
 }
+
+.main{
+    background: #fff;
+    width: 98%;
+    margin: auto;
+}
+
 }
