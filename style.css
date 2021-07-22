@@ -109,7 +109,7 @@ nav{
     margin-top: 20px;
 }
 .exibition{
-    width: 95%;
+    width: 85%;
     margin: auto;
     margin-top: 80px;
 }
@@ -454,6 +454,9 @@ cursor: pointer;
     margin-bottom: 20px;
     margin-right: 2px;
     margin-left: 2px;
+}
+.exibition h1{
+    width: 98px;
 }
 
 .exibition h1{
