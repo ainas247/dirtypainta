@@ -89,6 +89,31 @@ nav{
     justify-content: center;
     background-image: url(./images/Header-1.jpg);
 }
+.cover-about-banner-section{
+   background-color: rgba(0, 0, 0, 0.5);
+       height: 293px;
+       width: 100%;
+          display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-banner-section{
+    height: 293px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/About-us-\(header\).jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+.about-banner-section h1, h3{
+    color: white;
+
+}
 .banner-section h1, h3{
     color: white;
 
@@ -128,7 +153,7 @@ nav{
 .ex1{
     width: 430px;
     height: 221px;
-background-image: url(./images/img1.png);
+background-image: url(./images/Exhibition-1\ \(1\).jpg);
     background-size: cover;
 }
 .p{
@@ -140,7 +165,7 @@ background-image: url(./images/img1.png);
 .ex2{
     width: 430px;
     height: 221px;
-background-image: url(./images/img2.png);
+background-image: url(./images/About-us-\(body-2\).jpg);
         background-size: cover;
     
     }
@@ -154,14 +179,14 @@ background-image: url(./images/img2.png);
 .ex3{
     width: 430px;
     height: 221px;
-    background-image: url(./images/img2.png);
-        background-size: cover;
+    background-image: url(./images/Exhibition-3\ \(1\).jpg);
+   background-size: cover;
 
 }
 .ex4{
     width: 430px;
     height: 221px;
-background-image: url(./images/img2.png);
+background-image: url(./images/Exhibition-4.jpg);
         background-size: cover;
 }
 
@@ -461,5 +486,19 @@ cursor: pointer;
 
 .exibition h1{
     padding-left: 5px;
+}
+}
+
+.about-text .btn{
+width: 130px;
+height:30px;
+background: #E7DFD4;
+box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+border-radius: 28px;
+border: none;
+color: white;
+font-size: 18px;
+margin-top: 20px;
+cursor: pointer;
 }
 }
